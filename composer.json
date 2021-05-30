@@ -1,0 +1,32 @@
+{
+    "name": "dherrlein/deactivation",
+    "description": "Add deactivation field for Eloquent models",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dawid Herrlein",
+            "email": "herrlein.dawid@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/database": "^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dherrlein\\Deactivation\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dherrlein\\Deactivation\\ServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
