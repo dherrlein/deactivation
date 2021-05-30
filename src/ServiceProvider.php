@@ -4,7 +4,7 @@ namespace Dherrlein\Deactivation;
 
 use Illuminate\Database\Schema\Blueprint;
 
-class DeactivationServiceProvider extends \Illuminate\Support\ServiceProvider
+class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     const DEACTIVABLE_COLUMN_NAME = 'deactivated_at';
 
