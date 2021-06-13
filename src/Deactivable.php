@@ -80,7 +80,7 @@ trait Deactivable
      */
     public function getIsActiveAttribute(): bool
     {
-        return is_null($this->getDeactivatedAtColumn());
+        return is_null($this->{$this->getDeactivatedAtColumn()});
     }
 
     /**
